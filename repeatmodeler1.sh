@@ -13,5 +13,4 @@ MY_DATA_DIR=/data/charlesworth/guppy/analyses/repeatmodeler
   cd $MY_DATA_DIR
   rsync -avhP /scratch/$USER/repeatmodeler/$JOB_ID . && rm -r  /scratch/$USER/repeatmodeler/$JOB_ID && touch repeatmodeler.done
 
-  # 47617 is unmasked database(all uppercase)
-  # 47225 is masked database(with lowercase softmask)
+  # 47617 : unmasked database
